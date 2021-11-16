@@ -1,0 +1,99 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+ body {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+    background: #676767;
+ }
+
+ .top {
+     display: flex;
+     flex-direction: column;
+     align-items:center;
+     padding-bottom: 2vw;;
+     width: 100%;
+     border-bottom: 2px solid #121212;
+     background: #232323;
+     color: #f9f9f9;
+ }
+
+ .sticky_text {
+     font-size: 1.2em;
+     background: #b9b9b9;
+ }
+
+ .sticky_text:focus {
+     outline: 2px inset #f9f9f9;
+ }
+
+ ::placeholder {
+    color: #121212;
+ }
+
+ .board {
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap-reverse;
+     flex-direction: row-reverse;
+     margin-top: 20px;
+     width: 80%;
+ }
+
+ .sticky_note {
+     display: flex;
+     width: 15vw;
+     min-height: 10vw;
+     background: #232323;
+     color: #f9f9f9;
+     font-size: 1.3em;
+     margin: 5px;
+     padding: 10px;
+     border-radius: 25px;
+     border: 2px solid #676767;
+     box-shadow: 2px 2px 2px #121212;
+ }
+
+ .sticky_note:hover {
+     box-shadow: 4px 4px 4px #121212;
+ }
+ 
+ .sticky_note:hover a {
+     color: white;
+ }
+
+.delete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    border-radius: 25px;
+    padding: 1px;
+}
+
+ a {
+     color: #232323;
+     text-decoration: none;
+     font-size: 1em;
+ }
+
+ .text {
+     margin-left: 10px;
+     display: flex;
+     align-items: center;
+ }
