@@ -19,6 +19,6 @@ The app uses responsive design to function properly on desktop and mobile device
 If you want your own version of this, you should:
 - have rails installed
 - clone this repo
-    - rails db:migrate
-    - rails server
+- <code>rails db:migrate</code>
+- <code>rails server</code>
 open localhost:3000
