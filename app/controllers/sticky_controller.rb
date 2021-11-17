@@ -5,7 +5,10 @@ class StickyController < ApplicationController
 
     def create
         @note = StickyNote.new
-        @note.body = params["body"].capitalize
+        @note.body = params["body"]
+        words = @note.body.split
+        words[0] = words[0].capitalize
+        @note.body = words.join(" ")
         @note.save
         redirect_to "/"
     end
