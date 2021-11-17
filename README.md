@@ -4,11 +4,11 @@
 
 ## Notes
 
-    Users can write simple messages in the input box and store them in the database. 
+Users can write simple messages in the input box and store them in the database. 
 
-    Hovering over a message reveals an X which, when clicked, deletes the message.
+Hovering over a message reveals an X which, when clicked, deletes the message.
 
-    The app uses responsive design to function properly on desktop and mobile devices.
+The app uses responsive design to function properly on desktop and mobile devices.
 
 ## Ruby Version
     3.0.2
