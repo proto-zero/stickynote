@@ -13,3 +13,12 @@ The app uses responsive design to function properly on desktop and mobile device
 ## Ruby Version
     3.0.2
 
+## Database
+    Use PostGres as the database for Active Record
+
+If you want your own version of this, you should:
+- have rails installed
+- clone this repo
+    - rails db:migrate
+    - rails server
+open localhost:3000
