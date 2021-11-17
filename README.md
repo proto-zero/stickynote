@@ -21,4 +21,4 @@ If you want your own version of this, you should:
 - clone this repo
 - <code>rails db:migrate</code>
 - <code>rails server</code>
-open localhost:3000
+- open localhost:3000
