@@ -1,6 +1,6 @@
 # <a href="https://stickynote-todo.herokuapp.com/">Sean's Personal To Do List</a>
 
-This is an app built in Ruby on Rails with a PostGres Database. 
+## This is an app built in Ruby on Rails with a PostGres Database. 
 
 Users can write simple messages in the input box and store them on in the database. 
 
