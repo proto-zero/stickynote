@@ -9,6 +9,11 @@ class StickyController < ApplicationController
         words = @note.body.split
         words[0] = words[0].capitalize
         @note.body = words.join(" ")
+        @note.body.split.each do |x|
+            if x.downcase == "sean"
+                @note.body << ". Wow, what a great name, Sean.."
+            end
+        end
         @note.save
         redirect_to "/"
     end
