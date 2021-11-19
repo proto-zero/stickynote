@@ -21,6 +21,9 @@
     margin: 0;
     height: 100vh;
     background: #676767;
+    background: linear-gradient(#121212 0%, #343434 98%, #232323 100%);
+    min-height: 100vh;
+    height: auto;
  }
 
  .top {
