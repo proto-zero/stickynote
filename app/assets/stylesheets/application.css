@@ -19,6 +19,7 @@
     align-items: center;
     flex-direction: column;
     margin: 0;
+    height: 100vh;
     background: #676767;
  }
 
@@ -28,7 +29,7 @@
      align-items:center;
      padding-bottom: 2vw;;
      width: 100%;
-     border-bottom: 2px solid #121212;
+     border-bottom: 2px solid #676767;
      background: #232323;
      color: #D30303;
      text-shadow: 2px 2px #000000;
@@ -51,9 +52,8 @@
      display: flex;
      justify-content: center;
      flex-wrap: wrap-reverse;
-     /* flex-direction: row-reverse; */
      margin-top: 20px;
-     /* width: 80%; */
+     
  }
 
  .sticky_note {
@@ -61,6 +61,7 @@
      width: 15vw;
      min-height: 10vw;
      background: #232323;
+     background: linear-gradient(#121212 0%, #343434 98%, #232323 100%);
      color: #f9f9f9;
      font-size: 1.3em;
      margin: 5px;
